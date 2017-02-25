@@ -1,6 +1,6 @@
 {
   "name": "mofron-tmpl-centerconts",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Center Contents Template for moforn",
   "main": "index.js",
   "scripts": {

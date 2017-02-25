@@ -116,20 +116,32 @@ mofron.tmpl.CenterConts = class extends mofron.Template {
             conts.style('width' , '100%');
             
             this.base().child(
-                new mofron.Component({
-                    layout : new mofron.layout.Padding('top',1),
-                    child  : new mofron.Component({
-                                 style  : new mofron.Param('background',bg_clr.getStyle()),
-                                 effect : new mofron.effect.Backgd(),
-                                 layout : new mofron.layout.HrzCenter(),
-                                 child  : new mofron.Component({
-                                              child  : conts
-                                          })
-                             })
+                new mofron.Component(
+                {layout : new mofron.layout.Padding('top',1),
+                 child  : new mofron.Component(
+                          {style  : new mofron.Param('background',bg_clr.getStyle()),
+                           effect : new mofron.effect.Backgd(),
+                           layout : new mofron.layout.HrzCenter(),
+                           child  : new mofron.Component({
+                                        child  : conts
+                                    })
+                          })
                 })
             );
             this.conts_pnl = conts;
             return this.conts_pnl;
+        } catch (e) {
+            console.error(e.stack);
+            throw e;
+        }
+    }
+    
+    rate (val) {
+        try {
+            if (val) {
+                /* getter */
+                return 
+            }
         } catch (e) {
             console.error(e.stack);
             throw e;
