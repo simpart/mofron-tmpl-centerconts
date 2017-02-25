@@ -1,10 +1,17 @@
 {
   "name": "mofron-tmpl-centerconts",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "description": "Center Contents Template for moforn",
-  "main": "dist/centerconts.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mofron-comp-header-title" : "",
+    "mofron-layout-hrzcenter" : "",
+    "mofron-layout-padding" : "",
+    "mofron-effect-shadow" : "",
+    "mofron-effect-backgd" : ""
   },
   "repository": {
     "type": "git",
