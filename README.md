@@ -3,7 +3,7 @@ Center Contents Template for [moforn]((https://github.com/simpart/mofron)).<br>
 
 # Install
 ```bash
-mofron install mofron-tmpl-centerconts
+mofron install mofron mofron-tmpl-centerconts
 ```
 
 # Sample
